@@ -1,0 +1,58 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h2 {
+    margin-top: 1rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Style the forms */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  input, button {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling specific to the video conferencing website */
+  #upcoming-meetings, #join-meeting, #create-meeting {
+    margin-bottom: 2rem;
+  }
+  
